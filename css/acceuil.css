@@ -1,3 +1,70 @@
-body{
-    margin: 0;
+html,
+body {
+    background-color: rgb(26, 105, 105);
+   font-family: "roboto", sans-serif; 
+    margin: 0px;
 }
+nav{
+    background-color: brown;
+}
+section {
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+}
+.bold {
+    font-weight: bolder;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.align-center {
+    align-items: center;
+}
+.profil-image {
+    clip-path: ellipse(50% 33%);
+}
+.text-right {
+    float: right;
+}
+.text-center {
+    text-align: center;
+}
+.margin-left {
+    margin-left: 1em;
+}
+.margin-right {
+    margin-right: 1em;
+}
+.margin-top {
+    margin-top: 3em;
+}
+.border-b-2 {
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+.quiz-list-item {
+    width: 33.33%;
+padding-left: 12px;
+padding-bottom: 12px;
+}
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: flex;
+}
+.flex-end {
+    -moz-align-items: flex-end;
+    align-items: flex-end;
+}
+ 
