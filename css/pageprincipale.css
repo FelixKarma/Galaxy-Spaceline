@@ -20,18 +20,6 @@ footer {
   background: #f1f1f1c0;
   font-size: larger;
 }
-.content {
-  margin-bottom: 184px;
-}
-.foot {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 1%;
-}
-.header {
-  display: flex;
-  justify-content: space-around;
-}
 a:link {
   text-decoration: none;
   color: black;
@@ -47,6 +35,18 @@ a:visited {
 a:active {
   text-decoration: none;
   color: black;
+}
+.content {
+  margin-bottom: 184px;
+}
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1%;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
 }
 .retour {
   color: black;
@@ -154,5 +154,3 @@ a:active {
   top: 100px;
   right: 250px;
 }
-
-
