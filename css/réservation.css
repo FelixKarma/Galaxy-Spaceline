@@ -1,0 +1,40 @@
+.lesdeux{
+    display: flex;
+   flex-direction: row;
+}
+.vol{
+margin-left: 5%;
+margin-right: 10%;
+}
+.aaa{
+    margin-left: 50%;
+}
+.coté{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.destination{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.heures{
+    display: flex;
+}
+.contour{
+    width: 90%;
+}
+.prix{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  
+}
+.heurearr{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-right: 100px;   
+}
