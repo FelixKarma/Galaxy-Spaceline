@@ -2,5 +2,13 @@ body{
 
 }
 h1{
-    text-align: center; padding
+    text-align: center; 
+    padding:55;
+}
+.encule {
+    max-width: 150px;
+    max-height: 150px;
+}
+.bouton {
+    margin-left: 140px;
 }
