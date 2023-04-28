@@ -1,9 +1,6 @@
-h1 {
-    text-align: center;
-    padding: 55 !important;
+body{
 }
-main {
-    margin-bottom: 100px;
+main{
 }
 .Rabijaco {
     margin-top: 2px;
@@ -15,18 +12,22 @@ main {
 }
 
 .card {
-    margin-left: 150px;
+    display: flex;
+    /* grid-template-rows: max-content 1500px 1fr; */
+    /* margin-left: 150px; */
     background-color: rgb(0, 0, 0, 0.1) !important;
     border-color: steelblue !important;
     border-width: 8px !important;
 }
-.bouton {
-    margin-left: 140px;
-    border-radius: 5%;
-}
-
 .Quelesttonnom {
     display: flex !important;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     flex-wrap: wrap;
+}           
+.Quelesttonnom1 {
+    display: flex !important;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    margin-right: 10%; 
+    margin-left: 10%;
 }
