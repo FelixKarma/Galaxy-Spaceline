@@ -1,40 +1,40 @@
 .lesdeux{
-    display: flex;
-   flex-direction: row;
+    display: flex !important;
+   flex-direction:row !important;
 }
 .vol{
-margin-left: 5%;
-margin-right: 10%;
+margin-left: 5% !important;
+margin-right: 10% !important;
 }
 .aaa{
-    margin-left: 50%;
+    margin-left: 50% !important;
 }
 .coté{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-evenly !important;
 }
 .destination{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 100px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    margin-right: 100px !important;
 }
 .heures{
-    display: flex;
+    display: flex !important;
 }
 .contour{
-    width: 90%;
+    width: 90% !important;
 }
 .prix{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+   display: flex !important;
+   align-items: center !important;
+   justify-content: space-between !important;
   
 }
 .heurearr{
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    margin-right: 100px;   
+    display: flex !important;
+    justify-content: space-between !important; 
+    align-items: center !important;
+    margin-right: 100px !important;   
 }
