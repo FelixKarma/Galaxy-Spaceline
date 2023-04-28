@@ -1,9 +1,8 @@
-body {}
-
 h1 {
     text-align: center;
-    padding: 55;
+    padding: 55 !important;
 }
+
 .Rabijaco {
     margin-top: 2px;
     margin-left: 2px;
@@ -12,17 +11,14 @@ h1 {
     max-height: 4000px;
     border-radius: 5%;
 }
+
 .card {
-    margin-left: 150px; 
-    background-color: rgb(0, 0, 0,0.1) !important;
+    margin-left: 150px;
+    background-color: rgb(0, 0, 0, 0.1) !important;
     border-color: steelblue !important;
     border-width: 8px !important;
 }
-.card1 {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .bouton {
-    margin-left: 140px; border-radius: 5%;
+    margin-left: 140px;
+    border-radius: 5%;
 }
