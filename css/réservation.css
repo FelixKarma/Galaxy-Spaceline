@@ -38,3 +38,11 @@ margin-right: 10% !important;
     align-items: center !important;
     margin-right: 100px !important;   
 }
+.card{
+    width: 700px;
+}
+.buton{
+    border-radius: 50%;
+}
+
+
