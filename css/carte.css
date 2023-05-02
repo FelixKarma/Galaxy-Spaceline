@@ -8,25 +8,12 @@
     border-radius: 5%;
 }
 
-.card {
+.Carte {
     display: flex !important;
     /* grid-template-rows: max-content 1500px 1fr; */
     /* margin-left: 150px; */
-    background-color:azure !important;
     border-color: steelblue !important;
     border-width: 8px !important;
     margin-left: 100px;
     flex-wrap: wrap;
-}
-.Quelesttonnom {
-    display: flex !important;
-    padding-left: 80%;
-    /* justify-content: space-around; */
-    flex-wrap: wrap;
-}           
-.Quelesttonnom1 {
-    display: flex !important;
-    /* justify-content: space-around; */
-    margin-left: 700px;
-   
 }
