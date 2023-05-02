@@ -2,7 +2,9 @@ h1 {
     text-align: center;
     padding: 55 !important;
 }
-
+main {
+    margin-bottom: 100px;
+}
 .Rabijaco {
     margin-top: 2px;
     margin-left: 2px;
@@ -21,4 +23,10 @@ h1 {
 .bouton {
     margin-left: 140px;
     border-radius: 5%;
+}
+
+.Quelesttonnom {
+    display: flex !important;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
