@@ -1,0 +1,36 @@
+.age{
+   width: 35px;
+  
+}
+h1,div{
+    text-align: center;
+    font-size: 16pt;
+  }
+p{
+   font-size: 27pt;
+   color: white;
+} 
+.button{ 
+   position: relative !important;
+   left: 47%;
+   border-radius: 10px;
+}
+button:hover{
+background-color: cadetblue ;
+}
+.carousel{
+   position:fixed !important;
+   top: 0;
+   z-index: -20;
+}
+h1{
+   color: white !important;
+}
+form{
+   z-index: 20;
+}
+.form-group,.text-center{
+   color: white !important;
+}
+
+

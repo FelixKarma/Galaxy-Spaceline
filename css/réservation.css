@@ -1,0 +1,48 @@
+.lesdeux{
+    display: flex !important;
+   flex-direction:row !important;
+}
+.vol{
+margin-left: 5% !important;
+margin-right: 10% !important;
+}
+.aaa{
+    margin-left: 50% !important;
+}
+.coté{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-evenly !important;
+}
+.destination{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    margin-right: 100px !important;
+}
+.heures{
+    display: flex !important;
+}
+.contour{
+    width: 90% !important;
+}
+.prix{
+   display: flex !important;
+   align-items: center !important;
+   justify-content: space-between !important;
+  
+}
+.heurearr{
+    display: flex !important;
+    justify-content: space-between !important; 
+    align-items: center !important;
+    margin-right: 100px !important;   
+}
+.card{
+    width: 700px;
+}
+.buton{
+    border-radius: 50%;
+}
+
+

@@ -2,7 +2,6 @@ header {
   background-color: #f1f1f1c0;
   font-size: larger;
   padding: 1px;
-  position: relative;
 }
 html,
 body {
@@ -12,21 +11,17 @@ body {
   margin: 0;
   padding: 0;
 }
-footer {
-  text-align: center;
-  background: #f1f1f1c0;
-  font-size: larger;
-  position: absolute;
-  bottom: 0;
-  margin: 0;
-  width: 100%;
-}
 h1 {
   text-align: center;
   color: #f1f1f1;
 }
+footer {
+  text-align: center;
+  background: #f1f1f1c0;
+  font-size: larger;
+}
 .content {
-  margin-bottom: 40%;
+  margin-bottom: 184px;
 }
 .foot {
   display: flex;
@@ -55,26 +50,37 @@ a:active {
 }
 .retour {
   color: black;
-  position: relative;
-  right: 320px;
+  padding-right: 10%px;
 }
 .drapeau {
   max-width: 30px;
   max-height: 30px;
-  position: relative;
-  top: 15px;
 }
 .imgretour {
   max-width: 30px;
   max-height: 30px;
-  position: relative;
-  top: 15px;
-  right: 100px;
+  padding-top: 15px;
+  padding-right: 10px;
 }
 .fleche {
-  position: relative;
   max-width: 15px;
   max-height: 15px;
-  top: 22px;
-  right: 220px;
+  padding-left: 10px;
+}
+.langue {
+  display: flex;
+  align-items: center;
+}
+.bouton {
+  display: flex;
+  justify-content: flex-start;
+}
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+  padding-left: 10px;
+}
+.content {
+  display: flex;
+  align-items: center;
 }
