@@ -60,12 +60,12 @@ div.destinations-group {
     flex-wrap: wrap;
 }
 
-.Week-end sur L'Etoile Noire { background: url(../images/barcelone.jpg); }
-.Pluton { background: url(../images/dubai.jpg); }
-.Klingons { background: url(../images/londres.jpg); }
-.Mars { background: url(../images/paris.jpg); }
-.Ski sur AlzocIII { background: url(../images/philippines.jpg); }
-.Acamar IV { background: url(../images/tunis.jpg); }
+.EtoileNoire { background: url(../images/etoileNoire.jpg); }
+.Pluton { background: url(../images/Pluton.jpg); }
+.Klingons { background: url(../images/Klingon.jpg); }
+.Cocciland { background: url(../drap.png); }
+.AlzocIII { background: url(../images/Ski.jpg); }
+.AcamarIV { background: url(../images/Acamar.jpg); }
 
 .overlay { 
     position: absolute;
