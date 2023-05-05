@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/typeWriting.css" rel="stylesheet"/>
+
+    <title>Document</title>
+</head>
+<body>
+   
+<h1>VOTRE RESERVATION</h1>
+
+<button onclick="typeWriter()"></button>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = 'Vous avez réservé un vol pour Pluton. Le 26 octobre 2175 pour 2 personnes';
+var speed = 40;
+
+
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+</body>
+</html>
+
+    
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Play" />
+<h1>Vous êtes Plume de le Vigne fleurie<br></br>
+
+  <div class="c0"><div class="type0">You travel with Monsieur Maestro Leroux</div></div>
+  <br>
+    <div class="c1"><div class="type">You travel to Pluton</div></div>
+</br>
+<div class="c2"><div class="type2">On 15 March 2023 at 15.30</div></div>
+</br>
+<div class="c3"><div class="type3">2 passengers</div></div>
+<br>
+<div class="c4"><div class="type4">From Kourou</div></div>
+<br>
+<div class="c3"><div class="type5">Payment by Eye Contact</div></div>
+<div class='valide'>
+ 
+  <input class='retour' type='button' value='Je confirme' onClick="location.href='panneau.html';">
+</div>
+</br></h1>

@@ -1,0 +1,166 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>GALAXY SPACELINE !</title>
+        
+        <!-- lier la page html avec le css pour ajouter le design -->
+        <link rel="stylesheet" type="text/css" href="../css/reservations.css">
+
+        <!-- ajouter une police d'ecriture -->
+        <link href= "../css/reservations.css" rel="stylesheet">
+
+        <!-- je prend en compte les accents -->
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+        <header>
+      
+            <!-- Titre de la page -->
+            <h1 class="titre">GALAXY SPACELINE <i class="fa-solid fa-shuttle-space"></i></h1>
+
+            <!-- Slogan -->
+            <h3 class="slogan">"VOYAGEZ LA TETE DANS LES ETOILES"</h3>
+
+            <div class="search-form">
+                <!-- Formulaire de recherche -->
+                <form method="post">
+                                
+                    <div class="form-group">
+                        <label for="provenance">Cosmodrome de départ</label>
+                        <select name="provenance" id="provenance">
+                            <option selected="selected">Baïkonour</option>
+                            <option>Xichang</option>
+                            <option>Cap Canaveral</option>
+                            <option>SpaceX</option>
+                            <option>Kourou</option>
+                            <option>Alcantara</option>
+                        </select>
+
+                        <label for="arrivee">Planète d'arrivée</label>
+                        <select name="arrivee" id="arrivee">
+                            <option selected="selected">Bagabou</option>
+                            <option>Week End Etoile Noire</option>
+                            <option>Saturne</option>
+                            <option>Mars</option>
+                            <option>Ski sur Alzoc III</option>
+                            <option>Acamar IV</option>
+                            <option>Klingon</option>
+                            <option>Pluton</option>
+                            <option>Neptune</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="depart">Date de départ</label>
+                        <input type="date" name="depart" id="depart" value="13/04/2020">
+
+                        <label for="retour">Date de Retour</label>
+                        <input type="date" name="retour" id="retour" value="14/04/2020">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="adultes">Nombre d'adultes</label>
+                        <select name="adultes" id="adultes">
+                            <option selected="selected">0 Adulte</option>
+                            <option>1 Adulte</option>
+                            <option>2 Adultes</option>
+                            <option>3 Adultes</option>
+                            <option>4 Adultes</option>
+                            <option>5 Adultes</option>
+                        </select>
+
+                        <label for="enfants">Nombre d'enfants</label>
+                        <select name="enfants" id="enfants">
+                            <option selected="selected">0 Enfant</option>
+                            <option>1 Enfant</option>
+                            <option>2 Enfants</option>
+                            <option>3 Enfants</option>
+                            <option>4 Enfants</option>
+                            <option>5 Enfants</option>
+                        </select>
+
+                        <label for="type">Categorie</label>
+                        <select name="type" id="type">
+                            <option selected="selected">Economic Class</option>
+                            <option>Business Class</option>
+                            <option>Holiday Class</option>
+                        </select>
+                    </div>
+
+                    <div class="button-submit">
+                        <input type="submit" value="Lancer la recherche" name="recherche" id="recherche">
+                    </div>
+                    
+                </form>
+            </div>
+</header>
+       
+        <br><br>
+
+        <!-- Une section avec les destinations -->
+        <section id="destinations">
+
+            <h3>Nous proposons differentes destinations pour découvrir l'espace !</h3>
+
+            <div class="destinations-group">
+                <!-- destination 1 -->
+                <div class="destination-item Week-End sur L'Etoile Noire">
+                    <div class="overlay">
+                        <span class="prix">Dès 80€</span>
+                        <span class="nom">Week-end sur L'Etoile Noire</span>
+                    </div>
+                </div>
+
+                <!-- destination 2 -->
+                <div class="destination-item Pluton">
+                    <div class="overlay">
+                        <span class="prix">Dès 300€</span>
+                        <span class="nom">Pluton</span>
+                    </div>
+                </div>
+
+                <!-- destination 3 -->
+                <div class="destination-item rencontrer de Klingons">
+                    <div class="overlay">
+                        <span class="prix">Dès 1200€</span>
+                        <span class="nom">Klingons</span>
+                    </div>
+                </div>
+
+                <!-- destination 4 -->
+                <div class="destination-item Mars">
+                    <div class="overlay">
+                        <span class="prix">Dès 55€</span>
+                        <span class="nom">Mars</span>
+                    </div>
+                </div>
+
+                <!-- destination 5 -->
+                <div class="destination-item Ski sur Alzoc III">
+                    <div class="overlay">
+                        <span class="prix">Dès 90€</span>
+                        <span class="nom">Ski sur Alzoc III</span>
+                    </div>
+                </div>
+
+                <!-- destination 6 -->
+                <div class="destination-item Acamar IV">
+                    <div class="overlay">
+                        <span class="prix">Dès 65€</span>
+                        <span class="nom">Acamar IV</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Pied de page -->
+
+        <footer>
+            <hr>
+            <p>&copy; 2023 - Galaxy Spaceline - Tout droits réservés - <a href="cgu.html">CGU</a> </p>
+        </footer>
+        <script src="https://kit.fontawesome.com/7d49723770.js" crossorigin="anonymous"></script>
+    </body>
+</html>
