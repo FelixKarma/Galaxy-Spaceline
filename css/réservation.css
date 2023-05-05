@@ -43,6 +43,32 @@ margin-right: 10% !important;
 }
 .buton{
     border-radius: 50%;
+}  
+.hotel{
+    color: aliceblue;
 }
-
-
+h1{
+    text-align: center;
+    color: aliceblue !important;
+}
+.title{
+    font-weight: 1000;
+    text-align: center;
+}
+.souscrire{
+    text-align: center;
+}
+.parag{
+   text-align: center;
+}
+.ecrit{
+    color: red;
+}
+.carton{
+    background-color: gold !important;
+    border-radius: 10%;
+    p
+}
+.lien{
+    text-align: center;
+}

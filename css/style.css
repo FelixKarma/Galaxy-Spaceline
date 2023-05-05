@@ -53,8 +53,8 @@ a:active {
   padding-right: 10%px;
 }
 .drapeau {
-  max-width: 30px;
-  max-height: 30px;
+  max-width: 30px !important;
+  max-height: 30px !important;
 }
 .imgretour {
   max-width: 30px;
