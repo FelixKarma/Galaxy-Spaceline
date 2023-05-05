@@ -1,5 +1,42 @@
-h2 {
+body {
+    /* background-image: url(vide-sidérale.jpg) !important; */
+}
+
+.carteprofil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+margin-bottom: 100px;
+}
+
+
+.carte .photoprofil {
+    max-height: 202.5px !important;
+    max-width: 180px !important;
+}
+
+
+.titre {
     color: aliceblue !important;
-    text-align: center;
+    text-align: center !important;
     /* font-family: ; */
+    margin-top: 3rem !important;
+}
+
+.button .bubu {
+    display: flex;
+    position: fixed;
+    padding-left: 2px;
+    margin-bottom: 2px;
+}
+.button .bobo {
+    display: flex;
+    position: fixed;
+    padding-left: 2px;
+    margin-bottom: 2px;
+}
+
+h5 {
+    display: flex !important;
+    text-align: center !important;
 }
