@@ -106,3 +106,25 @@ h1 .type5{
     from { border-color: transparent }
     to { border-color: orange; }
   }
+  .valide {
+    padding-top: 1px;
+    padding-left: 10px;
+    max-width: 970px;
+    height: 30px;
+    background-color:#B3F4FE;
+ }
+ .retour {
+    float:right;
+    }
+    .valide {
+      padding-top: 1px;
+      padding-left: 10px;
+      max-width: 970px;
+      height: 30px;
+      background-color:#B3F4FE;
+   }
+   .retour {
+      float:right;
+      }
+   
+ 

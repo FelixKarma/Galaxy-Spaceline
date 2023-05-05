@@ -1,0 +1,1 @@
+{setTimeout ("Rebour();", 6000)}
